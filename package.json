@@ -1,0 +1,33 @@
+{
+  "name": "koa-starter-api",
+  "version": "1.0.0",
+  "description": "The API for Stick Quest",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon -e js ./index.js",
+    "production": "node index.js",
+    "test": "./node_modules/.bin/eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snollygolly/koa-starter-api.git"
+  },
+  "author": "snollygolly (@snollygolly)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snollygolly/koa-starter-api/issues"
+  },
+  "homepage": "https://github.com/snollygolly/koa-starter-api#readme",
+  "dependencies": {
+    "jwks-rsa": "^1.3.0",
+    "koa": "^2.3.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-jwt": "^3.5.1",
+    "koa-router": "^7.2.1",
+    "mongodb": "^3.1.13"
+  },
+  "devDependencies": {
+    "eslint": "^4.9.0",
+    "nodemon": "^1.12.1"
+  }
+}

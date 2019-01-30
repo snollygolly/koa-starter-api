@@ -1,0 +1,21 @@
+{
+  "site":{
+    "name": "Stick Quest API",
+    "port": 5100,
+    "ssl": {
+      "enabled": false,
+      "port": 5200,
+      "key": "./ssl/KEY.KEY",
+      "cert": "./ssl/CERT.CERT"
+    },
+    "jwt": {
+      "jwksUri": "https://xxx",
+      "audience": "http://xxx",
+      "issuer": "https://xxx"
+    }
+  },
+  "db":{
+    "url": "mongodb://localhost:27017",
+    "name": "KoaStarterApi"
+  }
+}
